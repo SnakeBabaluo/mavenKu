@@ -1,6 +1,6 @@
 # 这是github的远程maven仓库
 
-## sellingpartner-api-aa-java(亚马逊的spapi)
+## sellingpartner-api-aa-java(亚马逊的sp-api)
 使用说明:
 1. 声明下载地址
 ```java
