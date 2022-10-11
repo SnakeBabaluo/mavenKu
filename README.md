@@ -15,7 +15,7 @@
 2. 导入maven下载
 ```java
 <dependency>
-      <!--要与打包的项目一样-->
+      	<!--要与目录的路径一样-->
 	<groupId>com.amazon.sellingpartnerapi</groupId>
 	<artifactId>sellingpartnerapi-aa-java</artifactId>
 	<version>1.0</version>
