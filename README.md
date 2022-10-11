@@ -1,6 +1,6 @@
 # 这是github的远程maven仓库
 
-## sellingpartner-api-aa-java
+## sellingpartner-api-aa-java(亚马逊的spapi)
 使用说明:
 1. 声明下载地址
 ```java
@@ -21,8 +21,7 @@
 	<version>1.0</version>
 </dependency>
 ```
-   
-## 用例
+### 示例
 ```java
 import com.amazon.SellingPartnerAPIAA.AWSAuthenticationCredentials;
 import com.amazon.SellingPartnerAPIAA.AWSAuthenticationCredentialsProvider;
