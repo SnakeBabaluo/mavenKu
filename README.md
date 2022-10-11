@@ -1,5 +1,6 @@
-# sellingpartner-api-aa-java
-## 这是生成的Amazon spapi依赖
+# 这是github的远程maven仓库
+
+## sellingpartner-api-aa-java
 使用说明:
 1. 声明下载地址
 ```java
