@@ -28,10 +28,12 @@ import com.amazon.SellingPartnerAPIAA.AWSAuthenticationCredentialsProvider;
 import com.amazon.SellingPartnerAPIAA.LWAAuthorizationCredentials;
 import com.amazon.client.ApiException;
 import com.amazon.client.api.OrdersV0Api;
-import com.amazon.client.model.GetOrderItemsResponse;
-import org.jeecg.common.util.JsonUtil;
+import com.amazon.client.model.GetOrdersResponse;
 import org.junit.Ignore;
 import org.junit.Test;
+
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * @author LuoDaPao
@@ -78,8 +80,12 @@ public class GetOrderTest {
         if (null == ordersV0Api) {
             throw new RuntimeException();
         }
-        GetOrderItemsResponse orderItems = ordersV0Api.getOrderItems("112-0646735-5421044", null);
-        System.out.println(JsonUtil.INSTANCE.obj2json(orderItems));
+        List<String> marketplaceIds = new ArrayList<>();
+        marketplaceIds.add("ATVPDKIKX0DER");
+        GetOrdersResponse orders = ordersV0Api.getOrders(marketplaceIds, "1999-10-01", null,
+                null, null, null, null, null, null, null
+                , 2, null, null, null, null, null, null, null);
+        System.out.println(orders);
     }
 }
 ```
