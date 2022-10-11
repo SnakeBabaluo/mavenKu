@@ -26,11 +26,8 @@
 import com.amazon.SellingPartnerAPIAA.AWSAuthenticationCredentials;
 import com.amazon.SellingPartnerAPIAA.AWSAuthenticationCredentialsProvider;
 import com.amazon.SellingPartnerAPIAA.LWAAuthorizationCredentials;
-import com.amazon.client.ApiException;
 import com.amazon.client.api.OrdersV0Api;
 import com.amazon.client.model.GetOrdersResponse;
-import org.junit.Ignore;
-import org.junit.Test;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -38,13 +35,10 @@ import java.util.List;
 /**
  * @author LuoDaPao
  * @version 1.0
- * GetOrderTest Created on 2022-10-10 下午 下午 3:47
+ * Test Created on 2022-10-11 下午 上午 11:30
  */
-@Ignore
-public class GetOrderTest {
-
-    @Test
-    public void amazonAuthorizationGrant() throws ApiException {
+public class Demo {
+    public static void main(String[] args) throws Exception {
         OrdersV0Api ordersV0Api = new OrdersV0Api.Builder()
                 .awsAuthenticationCredentials(AWSAuthenticationCredentials.builder()
                         //IAM user的accessKeyId
