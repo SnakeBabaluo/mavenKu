@@ -1,0 +1,10 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Oct 11 17:35:57 CST 2022
+https\://maven.jeecg.org/nexus/content/repositories/jeecg/.lastUpdated=1665480956859
+https\://maven.jeecg.org/nexus/content/repositories/jeecg/.error=
+http\://192.168.1.62\:8087/repository/chenjia-public/.error=
+http\://192.168.1.62\:8087/repository/chenjia-public/.lastUpdated=1665480955889
+http\://maven.aliyun.com/nexus/content/repositories/central/.lastUpdated=1665480957163
+https\://maven.aliyun.com/repository/public/.lastUpdated=1665480956552
+http\://maven.aliyun.com/nexus/content/repositories/central/.error=
+https\://maven.aliyun.com/repository/public/.error=
