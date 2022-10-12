@@ -17,7 +17,7 @@
 <dependency>
       	<!--要与目录的路径一样-->
 	<groupId>com.amazon.sellingpartnerapi</groupId>
-	<artifactId>sellingpartnerapi-aa-java</artifactId>
+	<artifactId>sellingpartner-api-aa-java</artifactId>
 	<version>1.0</version>
 </dependency>
 ```
