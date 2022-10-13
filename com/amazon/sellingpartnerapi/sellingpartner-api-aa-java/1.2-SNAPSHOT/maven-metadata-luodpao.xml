@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>com.amazon.sellingpartnerapi</groupId>
+  <artifactId>sellingpartner-api-aa-java</artifactId>
+  <version>1.2-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20221013.061731</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <lastUpdated>20221013061731</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>1.2-20221013.061731-1</value>
+        <updated>20221013061731</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.2-20221013.061731-1</value>
+        <updated>20221013061731</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

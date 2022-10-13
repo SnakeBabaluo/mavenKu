@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Oct 13 14:17:30 CST 2022
+sellingpartner-api-aa-java-1.2-SNAPSHOT-jar-with-dependencies.jar>=
+sellingpartner-api-aa-java-1.2-SNAPSHOT.pom>=
+sellingpartner-api-aa-java-1.2-SNAPSHOT.jar>=
