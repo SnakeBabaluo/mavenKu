@@ -1,6 +1,6 @@
 # 这是github的远程maven仓库
 
-## sellingpartner-api-aa-java(亚马逊的sp-api)
+## sellingpartner-api-aa-java(亚马逊的sp-api)[源码地址](https://gitee.com/snakebbl/sellingpartner-api-aa-java)
 使用说明:
 1. 声明下载地址
 ```java
